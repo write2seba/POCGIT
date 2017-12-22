@@ -1,0 +1,9 @@
+package com.redhat.poc.pocdt;
+
+import java.lang.Number;
+
+rule "ApplicantRule"
+	dialect "mvel"
+	when
+	then
+end
