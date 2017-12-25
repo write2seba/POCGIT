@@ -128,7 +128,7 @@
       <boundName>f1</boundName>
       <factField>status</factField>
       <type>String</type>
-      <valueList>&quot;VISA Granted&quot;,&quot;Loan Rejected&quot;,&quot;Pending&quot;,&quot;Platinum Status&quot;,&quot;Approved&quot;</valueList>
+      <valueList></valueList>
       <update>false</update>
     </set-field-col52>
   </actionCols>
