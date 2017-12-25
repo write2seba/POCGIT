@@ -29,7 +29,7 @@
           <factField>name</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
-          <valueList>&quot;John Doe&quot;,&quot;Sandra W&quot;</valueList>
+          <valueList></valueList>
           <parameters/>
         </condition-column52>
         <condition-column52>
