@@ -20,12 +20,19 @@
       <name>a1</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>31</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
     <expect-rule>
       <ruleName>Row 1 ApplicantRule</ruleName>
+      <explanation>Rule [Row 1 ApplicantRule] was not activated. Expected it to be activated.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
+  <lastRunResult>2017-12-26 05:38:48.41 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.poc.pocdt</packageName>
