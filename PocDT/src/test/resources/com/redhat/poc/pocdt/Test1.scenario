@@ -4,11 +4,11 @@
   <globals/>
   <fixtures>
     <fact-data>
-      <type>Applicant</type>
+      <type>Person</type>
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>&quot;Jane Doe&quot;</value>
+          <value>John Doe</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -17,20 +17,18 @@
           <nature>4</nature>
         </field-data>
       </fieldData>
-      <name>a1</name>
+      <name>p1</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
       <executionTimeResult>16</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
-    <expect-rule>
-      <ruleName>Row 1 ApplicantRule</ruleName>
-      <explanation>Rule [Row 1 ApplicantRule] was not activated. Expected it to be activated.</explanation>
-      <expectedFire>true</expectedFire>
-      <successResult>false</successResult>
-      <actualResult>0</actualResult>
-    </expect-rule>
+    <expect-fact>
+      <fieldValues/>
+      <name>Person</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
   <lastRunResult>2017-12-26 06:40:36.380 UTC</lastRunResult>
   <rules/>
