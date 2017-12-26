@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>Jane Doe</value>
+          <value>&quot;Jane Doe&quot;</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -21,7 +21,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>31</executionTimeResult>
+      <executionTimeResult>16</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-rule>
@@ -32,7 +32,7 @@
       <actualResult>0</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2017-12-26 05:38:48.41 UTC</lastRunResult>
+  <lastRunResult>2017-12-26 06:40:36.380 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.poc.pocdt</packageName>
