@@ -1,5 +1,5 @@
 <scenario>
-  <name>Test1.scenario</name>
+  <name>Test2.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>John Doe</value>
+          <value>Sandra W</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -21,15 +21,18 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>0</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>31</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-rule>
-      <ruleName>Row 1 ApplicantRule</ruleName>
+      <ruleName>Row 1 AppRule</ruleName>
+      <explanation>Rule [Row 1 AppRule] was activated 1 times.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2017-12-26 06:46:54.816 UTC</lastRunResult>
+  <lastRunResult>2017-12-27 10:12:49.765 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.poc.pocdt</packageName>
