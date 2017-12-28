@@ -4,7 +4,7 @@ rule "CreditApp"
 
 when
     
-    a: Applicant(name == "Jane Doe" ,creditLimit==25000)
+    a: Applicant(name == "Jane Doe" ,creditLimit == 25000)
     
 then
 
