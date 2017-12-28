@@ -1,2 +1,14 @@
 package com.redhat.poc.pocdt;
 
+rule "CreditApp"
+
+when
+    
+    a: Applicant(name == "Jane Doe" ,creditLimit==25000)
+    
+then
+
+    System.out.println( "You are Welcome!" );
+    
+end
+
